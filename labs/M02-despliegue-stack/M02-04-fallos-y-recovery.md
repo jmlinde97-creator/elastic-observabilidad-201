@@ -67,7 +67,7 @@ Completamos el runbook (ejemplo de fila completa — adaptado al lab):
 
 | Síntoma | Comprobación 1 | Comprobación 2 | Acción |
 |---------|----------------|----------------|--------|
-| Discover vacío | `_count` ¿crece al repetir curl? | ¿`lab-filebeat` Up en `docker compose ps`? | Si count > 0 y Beat Up → ampliar time picker; si count = 0 → logs de Filebeat y perfil `beats` |
+| Discover vacío | `_count` ¿crece al repetir curl? | ¿`lab-filebeat` Up en `docker compose ps`? | Si count > 0 y Beat Up → ampliar time picker; si count = 0 → logs de Filebeat y perfil `beats` |.
 
 Compara con [TROUBLESHOOTING](../TROUBLESHOOTING.md).
 
